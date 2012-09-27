@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<P>
+	Browse All Image:
+</P>
+	<form method="POST" action="/similar-image/similar?type=browse">
+		<input type="submit" value="Browse" />
+	</form>
+
+<P>
+	Find Similar Image By URL
+	
+</P>
+
+	<form method="POST" action="/similar-image/similar?type=url">
+		<input type="text" name="url" value="http://img1.gtimg.com/cd/pics/hv1/97/207/630/41018632.jpg">
+		<input type="submit" value="Find Similar" />
+	</form>
+
+</body>
+
+</html>

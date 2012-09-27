@@ -1,0 +1,5 @@
+2012-9-26
+Init	Initial project.
+Add		pom.xml
+		Using Maven2 to manage Project.
+Add		Readme.txt
